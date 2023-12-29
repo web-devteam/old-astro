@@ -613,7 +613,7 @@ searchd.click()
 } 
 }
 
-document.getElementById("gsbutton").addEventListener("click", ()=>{
+document.getElementById("getstarted").addEventListener("click", ()=>{
   newuser=1; localStorage.setItem("newuser", newuser);
   location.reload()
 })
