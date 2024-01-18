@@ -62,7 +62,7 @@ chatarea.appendChild(box)
 chatarea.appendChild(box2);
 let chat2 = chat.innerText;
 chatarea.scrollTo(0, 3000000000000000000000)
-
+chattext.value = chattext.value.toLowerCase().padEnd().padStart().replace(".", "").replace(",", "").replace("!", "")
 let value1 = "";
 
     let split = chattext.value.split(" ")
